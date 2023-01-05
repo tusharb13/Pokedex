@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .input-search {
+    appearance: none;
+    background-color: white;
+    border: solid 2px #346cce;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 100px;
+    margin: 0;
+    padding: 0.5em;
+    position: relative;
+    transition: border-color;
+    outline: none;
+  }
+
+  .input-search:focus {
+    border: solid 2px black;
+  }
+
+
+  .search-button {
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin-left: 0.5em;
+    background-color: #346cce;
+    color: white;
+    font-weight: 550px;
+    font-size: larger;
+    font-family: monospace;
+  }
+
+  .search-button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #346cce;
+    color: black;
+  }
+
+  .result {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+  }
+
+  .pokemon-img {
+    width: 100%;
+  }
